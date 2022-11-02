@@ -1,28 +1,31 @@
-*{
+* {
     margin: 0;
-    background-color: #ecf0f3;
+    background-color: black;
     font-family: sans-serif;
     outline: none;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-.calculater{
+
+.calculater {
     display: grid;
     width: 270px;
     border-radius: 30px;
     background-color: #ecf0f3;
-    box-shadow: inset 5px 5px 12px   white , 5px 5px 12px rgba(0,0,0,.16);
-    padding: 20px ;
-    grid-template-columns: repeat(4,50px);
+    box-shadow: inset 5px 5px 12px white, 5px 5px 12px rgba(0, 0, 0, .16);
+    padding: 20px;
+    grid-template-columns: repeat(4, 50px);
     gap: 15px;
 }
-input{
+
+input {
     grid-column: span 4;
-    box-shadow: inset -5px -5px 12px   white , inset 5px 5px 12px rgba(0,0,0,.16);
+    box-shadow: inset -5px -5px 12px white, inset 5px 5px 12px rgba(0, 0, 0, .16);
     background-color: #ecf0f3;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -34,12 +37,13 @@ input{
     text-align: end;
     font-size: 50px;
     border: none;
-    
+
 }
-button{
+
+button {
     background-color: #ecf0f3;
     width: 48px;
-    box-shadow:  -5px -5px 12px   white ,  5px 5px 12px rgba(0,0,0,.16);
+    box-shadow: -5px -5px 12px white, 5px 5px 12px rgba(0, 0, 0, .16);
     height: 48px;
     border-radius: 50%;
     cursor: pointer;
@@ -47,16 +51,19 @@ button{
     font-size: 20px;
     border: none;
 }
-.equal{
+
+.equal {
     width: 123px;
     border-radius: 20px;
     background-color: rgb(75, 196, 75);
 }
-.cl{
-    
+
+.cl {
+
     background-color: rgb(202, 28, 28);
 }
-.del{
-    
+
+.del {
+
     background-color: rgb(216, 188, 27);
 }

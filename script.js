@@ -10,9 +10,11 @@ function calculate() {
   try {
     outputscreen.value = eval(outputscreen.value);
   } catch (err) {
-    outputscreen.value = "error";
-    // alert("invalid");
-    document.write("error occured");
+    outputscreen.value = "syntax error";
+    outputscreen.style.color="white"
+    outputscreen.style.fontSize="20px"
+    outputscreen.style.textAlign="center"
+    outputscreen.style.backgroundColor="red"
   }
 }
 function del() {
